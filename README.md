@@ -12,21 +12,11 @@
 查看所有可用 Skills：
 
 ```bash
-npx skills add <github-user>/<repository> --list
+npx skills add zesty39/skills --list
 ```
 
-安装指定 Skill：
+全局安装 Skills：
 
 ```bash
-npx skills add <github-user>/<repository> --skill <skill-name>
-```
-
-全局安装所有 Skills 到 Codex：
-
-```bash
-npx skills add <github-user>/<repository> \
-  --skill '*' \
-  --agent codex \
-  --global \
-  --yes
+npx skills add zesty39/skills -g
 ```
