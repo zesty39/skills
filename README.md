@@ -4,7 +4,7 @@
 
 ## Skills
 
-- **codex-matt-pocock-adapter**：将 Matt Pocock 工程 Skills 的子代理委派、上下文隔离和任务交接流程适配到 Codex。
+- **matt-pocock-adapter**：通用适配器，将 Matt Pocock 工程 Skills 的子代理委派、上下文隔离和任务交接流程适配到宿主提供的委派机制（Codex、Claude Code 等）。
 - **shell-script-conventions**：规范 Bash 脚本的结构、变量、帮助信息、日志、参数解析和验证。
 
 ## 安装
