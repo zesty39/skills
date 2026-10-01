@@ -20,3 +20,9 @@ npx skills add zesty39/skills --list
 ```bash
 npx skills add zesty39/skills -g
 ```
+
+仓库根目录的 `global-instructions.md` 是可选的全局指令片段（语言规范、拼写检查、提问方式、Git 提交），独立于各 Skill，不随 `skills add` 安装。如需启用，将其内容合并到全局指令文件：
+
+- Codex：`~/.codex/AGENTS.md`
+- Claude Code：`~/.claude/CLAUDE.md`
+- 其他 agent：对应的全局指令文件
