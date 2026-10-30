@@ -1,0 +1,3 @@
+interface:
+  display_name: "Matt Pocock Adapter"
+  short_description: "适配 Matt Pocock 技能的子代理委派、审查及准备确认流程"

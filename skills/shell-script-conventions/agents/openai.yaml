@@ -1,0 +1,3 @@
+interface:
+  display_name: "Shell Script Conventions"
+  short_description: "规范 Bash 脚本的结构、变量命名、帮助信息、日志及参数校验"
